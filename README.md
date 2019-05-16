@@ -31,7 +31,7 @@ HTML
 
 Objective:
 - to make this website look as if it's a real website
-- our website name would be "CarExpressGo"
+- stick to the website name
 - To connect every pages to each other
 - To inputs from user to phpMyAdmin
 
