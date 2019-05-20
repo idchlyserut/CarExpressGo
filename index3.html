@@ -192,34 +192,34 @@
                     <div class="booka-car-content">
                         <form action="index3.html">
                             <div class="pick-location bookinput-item">
-                                <select class="custom-select">
+                                <select class="custom-select" name="location">
                                   <option selected>Pick Location</option>
-                                  <option value="1">Skudai</option>
-                                  <option value="2">Senai</option>
-                                  <option value="3">Johor Bahru</option>
-                                  <option value="3">Tampoi</option>
+                                  <option value="Skudai">Skudai</option>
+                                  <option value="Senai">Senai</option>
+                                  <option value="Johor Bahru">Johor Bahru</option>
+                                  <option value="Tampoi">Tampoi</option>
                                 </select>
                             </div>
 
                             <div class="pick-date bookinput-item">
-                                <input id="startDate2" placeholder="Pick Date" />
+                                <input id="startDate2" placeholder="Pick Date" name="pick_date" />
                             </div>
 
                             <div class="retern-date bookinput-item">
-                                <input id="endDate2" placeholder="Return Date" />
+                                <input id="endDate2" placeholder="Return Date" name="return_date" />
                             </div>
 
-                            <div class="car-choose bookinput-item">
+                            <div class="car-choose bookinput-item" name="car_type">
                                 <select class="custom-select">
                                   <option selected>Choose Car</option>
-                                  <option value="1">BMW</option>
-                                  <option value="2">Audi</option>
-                                  <option value="3">Lexus</option>
+                                  <option value="BMW">BMW</option>
+                                  <option value="Audi">Audi</option>
+                                  <option value="Lexus">Lexus</option>
                                 </select>
                             </div>
 
                             <div class="bookcar-btn bookinput-item">
-                                <button type="submit">Book Car</button>
+                                <button type="submit" name="bookCar">Book Car</button>
                             </div>
                         </form>
                     </div>
