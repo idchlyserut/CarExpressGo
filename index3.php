@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php include('config.php') ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -61,7 +60,7 @@
                 <div class="row">
                     <!--== Single HeaderTop Start ==-->
                     <div class="col-lg-3 text-left">
-                        <i class="fa fa-map-marker"></i> 802/2, Mirpur, Dhaka
+                        <i class="fa fa-map-marker"></i> Skudai, Johor Bahru, Malaysia
                     </div>
                     <!--== Single HeaderTop End ==-->
 
@@ -73,7 +72,7 @@
 
                     <!--== Single HeaderTop Start ==-->
                     <div class="col-lg-3 text-center">
-                        <i class="fa fa-clock-o"></i> Mon-Fri 09.00 - 17.00
+                        <i class="fa fa-clock-o"></i> weekdays 09.00 - 17.00, weekends 09.00 - 15.30
                     </div>
                     <!--== Single HeaderTop End ==-->
 
@@ -110,7 +109,7 @@
                             <ul>
                                 <li><a href="index3.html">Home</a>
                                 </li>
-                                <li class="active"><a href="about.html">About</a></li>
+                                <li><a href="about.html">About</a></li>
                                 <li><a href="services.html">services</a></li>
                                 <li><a href="car-right-sidebar.html">Cars</a>
                                     <ul>
@@ -129,8 +128,8 @@
        
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
-								<li><a href="login.html">Log In</a></li>
-                               <li><a href="register.html">Register</a></li>
+								<li><a href="login.php">Log In</a></li>
+                               <li><a href="register.php">Register</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -150,7 +149,7 @@
                     <div class="col-lg-12">
                         <div class="slideshowcontent">
                             <h1>BOOK A CAR TODAY!</h1>
-                            <p>FOR AS LOW AS $10 A DAY PLUS 15% DISCOUNT <br> FOR OUR RETURNING CUSTOMERS</p>
+                            <p>FOR AS LOW AS RM100 A DAY PLUS 15% DISCOUNT <br> FOR OUR RETURNING CUSTOMERS</p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +162,7 @@
                     <div class="col-lg-12">
                         <div class="slideshowcontent">
                             <h1>SAVE YOUR MONEY</h1>
-                            <p>FOR AS LOW AS $10 A DAY PLUS 15% DISCOUNT <br> FOR OUR RETURNING CUSTOMERS</p>
+                            <p>FOR AS LOW AS RM100 A DAY PLUS 15% DISCOUNT <br> FOR OUR RETURNING CUSTOMERS</p>
                         </div>
                     </div>
                 </div>
@@ -176,7 +175,7 @@
                     <div class="col-lg-12">
                         <div class="slideshowcontent">
                             <h1>ENJOY YOUR JOURNEY</h1>
-                            <p>FOR AS LOW AS $10 A DAY PLUS 15% DISCOUNT <br> FOR OUR RETURNING CUSTOMERS</p>
+                            <p>FOR AS LOW AS RM100 A DAY PLUS 15% DISCOUNT <br> FOR OUR RETURNING CUSTOMERS</p>
                         </div>
                     </div>
                 </div>
@@ -195,10 +194,10 @@
                             <div class="pick-location bookinput-item">
                                 <select class="custom-select" name="location">
                                   <option selected>Pick Location</option>
-                                  <option value="1">Dhaka</option>
-                                  <option value="2">Comilla</option>
-                                  <option value="3">Barishal</option>
-                                  <option value="3">Rangpur</option>
+                                  <option value="Skudai">Skudai</option>
+                                  <option value="Senai">Senai</option>
+                                  <option value="Johor Bahru">Johor Bahru</option>
+                                  <option value="Tampoi">Tampoi</option>
                                 </select>
                             </div>
 
@@ -210,12 +209,12 @@
                                 <input id="endDate2" placeholder="Return Date" name="return_date" />
                             </div>
 
-                            <div class="car-choose bookinput-item">
+                            <div class="car-choose bookinput-item" >
                                 <select class="custom-select" name="car_type">
                                   <option selected>Choose Car</option>
-                                  <option value="1">BMW</option>
-                                  <option value="2">Audi</option>
-                                  <option value="3">Lexus</option>
+                                  <option value="BMW">BMW</option>
+                                  <option value="Audi">Audi</option>
+                                  <option value="Lexus">Lexus</option>
                                 </select>
                             </div>
 
@@ -237,9 +236,9 @@
                 <!-- Section Title Start -->
                 <div class="col-lg-12">
                     <div class="section-title  text-center">
-                        <h2>WHAT WE DO</h2>
+                        <h2>OUR MOTTO</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>We give the best car rent experience for everyone</p>
                     </div>
                 </div>
                 <!-- Section Title End -->
@@ -389,7 +388,7 @@
                     <div class="section-title  text-center">
                         <h2>Our Services</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>The most premium car rent service you can get.</p>
                     </div>
                 </div>
                 <!-- Section Title End -->
@@ -406,58 +405,7 @@
                             </div>
                             <div class="media-body">
                                 <h4>RENTAL CAR</h4>
-                                <p>You can be a celebrity for a full night and half days with a nice one of our amazing Limousines, Hummers.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Service Start -->
-
-                <!-- Single Service Start -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-service">
-                        <div class="media">
-                            <div class="service-icon">
-                                <span></span>
-                                <img src="assets/img/services/service-icon-2.png" alt="JSOFT">
-                            </div>
-                            <div class="media-body">
-                                <h4>CAR REPAIR</h4>
-                                <p>You can be a celebrity for a full night and half days with a nice one of our amazing Limousines, Hummers.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Service Start -->
-
-                <!-- Single Service Start -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-service">
-                        <div class="media">
-                            <div class="service-icon">
-                                <span></span>
-                                <img src="assets/img/services/service-icon-3.png" alt="JSOFT">
-                            </div>
-                            <div class="media-body">
-                                <h4>TAXI SERVICE</h4>
-                                <p>You can be a celebrity for a full night and half days with a nice one of our amazing Limousines, Hummers.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Service Start -->
-
-                <!-- Single Service Start -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-service">
-                        <div class="media">
-                            <div class="service-icon">
-                                <span></span>
-                                <img src="assets/img/services/service-icon-4.png" alt="JSOFT">
-                            </div>
-                            <div class="media-body">
-                                <h4>life insurance</h4>
-                                <p>You can be a celebrity for a full night and half days with a nice one of our amazing Limousines, Hummers.</p>
+                                <p>Rent a great car with inexpensive prices</p>
                             </div>
                         </div>
                     </div>
@@ -517,7 +465,7 @@
                                     </div>
                                     <div class="funfact-content">
                                         <p><span class="counter">550</span>+</p>
-                                        <h4>HAPPY CLIENTS</h4>
+                                        <h4>GOOD REVIEWS</h4>
                                     </div>
                                 </div>
                             </div>
@@ -530,7 +478,7 @@
                                         <i class="fa fa-car"></i>
                                     </div>
                                     <div class="funfact-content">
-                                        <p><span class="counter">250</span>+</p>
+                                        <p><span class="counter">50</span>+</p>
                                         <h4>CARS IN STOCK</h4>
                                     </div>
                                 </div>
@@ -544,7 +492,7 @@
                                         <i class="fa fa-bank"></i>
                                     </div>
                                     <div class="funfact-content">
-                                        <p><span class="counter">50</span>+</p>
+                                        <p><span class="counter">5</span>+</p>
                                         <h4>office in cities</h4>
                                     </div>
                                 </div>
@@ -567,7 +515,7 @@
                     <div class="section-title  text-center">
                         <h2>Our cars</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>WE SERVE THE BEST CAR FOR YOUR BEST EXPERIENCE</p>
                     </div>
                 </div>
                 <!-- Section Title End -->
@@ -619,11 +567,11 @@
 
                                             <div class="col-lg-4">
                                                 <div class="ourcar-info text-center">
-                                                    <h2>$ 75.40 <span>Rent per day</span></h2>
+                                                    <h2>RM 300.00 <span>Rent per day</span></h2>
                                                     <table class="our-table">
                                                         <tr>
                                                             <td>Model</td>
-                                                            <td>Limousine</td>
+                                                            <td>Sport</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Doors</td>
@@ -631,7 +579,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>Seats</td>
-                                                            <td>15</td>
+                                                            <td>4</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Transmission</td>
@@ -664,11 +612,11 @@
 
                                             <div class="col-lg-4">
                                                 <div class="ourcar-info text-center">
-                                                    <h2>$ 75.40 <span>Rent per day</span></h2>
+                                                    <h2>RM 350.00 <span>Rent per day</span></h2>
                                                     <table class="our-table">
                                                         <tr>
                                                             <td>Model</td>
-                                                            <td>Limousine</td>
+                                                            <td>Sport</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Doors</td>
@@ -676,7 +624,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>Seats</td>
-                                                            <td>15</td>
+                                                            <td>4</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Transmission</td>
@@ -709,11 +657,11 @@
 
                                             <div class="col-lg-4">
                                                 <div class="ourcar-info text-center">
-                                                    <h2>$ 75.40 <span>Rent per day</span></h2>
+                                                    <h2>RM 320.00 <span>Rent per day</span></h2>
                                                     <table class="our-table">
                                                         <tr>
                                                             <td>Model</td>
-                                                            <td>Limousine</td>
+                                                            <td>Sport</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Doors</td>
@@ -721,7 +669,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>Seats</td>
-                                                            <td>15</td>
+                                                            <td>4</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Transmission</td>
@@ -754,11 +702,11 @@
 
                                             <div class="col-lg-4">
                                                 <div class="ourcar-info text-center">
-                                                    <h2>$ 75.40 <span>Rent per day</span></h2>
+                                                    <h2>RM 300.00 <span>Rent per day</span></h2>
                                                     <table class="our-table">
                                                         <tr>
                                                             <td>Model</td>
-                                                            <td>Limousine</td>
+                                                            <td>Sport</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Doors</td>
@@ -766,7 +714,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>Seats</td>
-                                                            <td>15</td>
+                                                            <td>4</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Transmission</td>
@@ -799,11 +747,11 @@
 
                                             <div class="col-lg-4">
                                                 <div class="ourcar-info text-center">
-                                                    <h2>$ 75.40 <span>Rent per day</span></h2>
+                                                    <h2>RM 350.00 <span>Rent per day</span></h2>
                                                     <table class="our-table">
                                                         <tr>
                                                             <td>Model</td>
-                                                            <td>Limousine</td>
+                                                            <td>Sport</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Doors</td>
@@ -811,7 +759,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>Seats</td>
-                                                            <td>15</td>
+                                                            <td>5</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Transmission</td>
@@ -848,7 +796,7 @@
                     <div class="section-title  text-center">
                         <h2>Only quality for clients</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>QUALITY OVER QUANTITY.</p>
                     </div>
                 </div>
                 <!-- Section Title End -->
@@ -860,7 +808,7 @@
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="single-pricing-table">
                         <h3>BUSINESS</h3>
-                        <h2>$ 55.99</h2>
+                        <h2>RM 2499.99</h2>
                         <h5>PER MONTH</h5>
 
                         <ul class="package-list">
@@ -870,6 +818,7 @@
                             <li>TRANSPORT ABROAD</li>
                             <li>ALL INCLUSIVE MINI BAR</li>
                             <li>CHAUFFER INCLUDED IN PRICE</li>
+                            <li>DEPOSIT EXCLUDED</li>
                         </ul>
                     </div>
                 </div>
@@ -880,7 +829,7 @@
                     <div class="single-pricing-table">
                         <h3>Trial</h3>
                         <h2>Free</h2>
-                        <h5>PER MONTH</h5>
+                        <h5>ONE MONTH</h5>
 
                         <ul class="package-list">
                             <li>FREE VEHICLE DELIVERY</li>
@@ -889,6 +838,7 @@
                             <li>TRANSPORT ABROAD</li>
                             <li>MINI BAR</li>
                             <li>INCLUDED IN PRICE</li>
+                            <li>DEPOSIT EXCLUDED</li>
                         </ul>
                     </div>
                 </div>
@@ -898,7 +848,7 @@
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="single-pricing-table">
                         <h3>standard</h3>
-                        <h2>$ 35.99</h2>
+                        <h2>RM 1999.99</h2>
                         <h5>PER MONTH</h5>
 
                         <ul class="package-list">
@@ -908,6 +858,7 @@
                             <li>TRANSPORT ABROAD</li>
                             <li>ALL MINI BAR</li>
                             <li>CHAUFFER PRICE</li>
+                            <li>DEPOSIT EXCLUDED</li>
                         </ul>
                     </div>
                 </div>
@@ -917,331 +868,6 @@
         </div>
     </section>
     <!--== Pricing Area End ==-->
-
-    <!--== Why Coose Us Start ==-->
-    <section id="why-choose-area" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <!-- Section Title Start -->
-                <div class="col-lg-12">
-                    <div class="section-title  text-center">
-                        <h2>Why Coose Us</h2>
-                        <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Lorem ipsum dolor sit amet elit.</p>
-                    </div>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="row">
-                <div class="col-lg-10 m-auto">
-                    <div class="row">
-                        <!-- Why Choose Tab Menu -->
-                        <div class="col-lg-4">
-                            <ul class="nav nav-tabs" id="choosetabmenu" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="car-ins" data-toggle="tab" href="#car-insp" role="tab" aria-selected="true">CAR INSPECTION</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="car-repair" data-toggle="tab" href="#car-repairw" role="tab" aria-selected="false">CAR REPAIR WORKS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="car-glass" data-toggle="tab" href="#car-glassing" role="tab" aria-selected="false">CAR GLASSING</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="delivery-tab" data-toggle="tab" href="#delivery" role="tab" aria-selected="false">DELIVERY</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="vehiclemodels-tab" data-toggle="tab" href="#vehiclemodels" role="tab" aria-selected="false">Vehicle Models</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="ourrental-tab" data-toggle="tab" href="#ourrental" role="tab" aria-selected="false">Our Rental</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Why Choose Tab Menu -->
-
-                        <!-- Why Choose Tab Content -->
-                        <div class="col-lg-8">
-                            <div class="tab-content" id="choosetabcontent">
-                                <div class="tab-pane fade show active" id="car-insp" role="tabpanel" aria-labelledby="car-ins">
-                                    <div class="wchoose-content">
-                                        <h4>CAR INSPECTION</h4>
-                                        <p>Erspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataesal vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-anchor"></i>
-                                                    </div>
-                                                    <span>Quia, odio, ipsam deleniti delectus assumenda cum.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-delicious"></i>
-                                                    </div>
-                                                    <span>Deleniti eius fuga perferendis, dolorum atquesequi soluta.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-bus"></i>
-                                                    </div>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-briefcase"></i>
-                                                    </div>
-                                                    <span>Beataesal vitae dicta sunt explicabo. Nemo enim ipsam </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="car-repairw" role="tabpanel" aria-labelledby="car-repair">
-                                    <div class="wchoose-content">
-                                        <h4>CAR REPAIR WORKS</h4>
-                                        <p>Erspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataesal vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-anchor"></i>
-                                                    </div>
-                                                    <span>Quia, odio, ipsam deleniti delectus assumenda cum.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-delicious"></i>
-                                                    </div>
-                                                    <span>Deleniti eius fuga perferendis, dolorum atquesequi soluta.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-bus"></i>
-                                                    </div>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-briefcase"></i>
-                                                    </div>
-                                                    <span>Beataesal vitae dicta sunt explicabo. Nemo enim ipsam </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="car-glassing" role="tabpanel" aria-labelledby="car-glass">
-                                    <div class="wchoose-content">
-                                        <h4>CAR GLASSING</h4>
-                                        <p>Erspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataesal vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-anchor"></i>
-                                                    </div>
-                                                    <span>Quia, odio, ipsam deleniti delectus assumenda cum.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-delicious"></i>
-                                                    </div>
-                                                    <span>Deleniti eius fuga perferendis, dolorum atquesequi soluta.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-bus"></i>
-                                                    </div>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-briefcase"></i>
-                                                    </div>
-                                                    <span>Beataesal vitae dicta sunt explicabo. Nemo enim ipsam </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-tab">
-                                    <div class="wchoose-content">
-                                        <h4>DELIVERY</h4>
-                                        <p>Erspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataesal vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-anchor"></i>
-                                                    </div>
-                                                    <span>Quia, odio, ipsam deleniti delectus assumenda cum.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-delicious"></i>
-                                                    </div>
-                                                    <span>Deleniti eius fuga perferendis, dolorum atquesequi soluta.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-bus"></i>
-                                                    </div>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-briefcase"></i>
-                                                    </div>
-                                                    <span>Beataesal vitae dicta sunt explicabo. Nemo enim ipsam </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="vehiclemodels" role="tabpanel" aria-labelledby="vehiclemodels-tab">
-                                    <div class="wchoose-content">
-                                        <h4>Vehicle Models</h4>
-                                        <p>Erspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataesal vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-anchor"></i>
-                                                    </div>
-                                                    <span>Quia, odio, ipsam deleniti delectus assumenda cum.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-delicious"></i>
-                                                    </div>
-                                                    <span>Deleniti eius fuga perferendis, dolorum atquesequi soluta.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-bus"></i>
-                                                    </div>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-briefcase"></i>
-                                                    </div>
-                                                    <span>Beataesal vitae dicta sunt explicabo. Nemo enim ipsam </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="ourrental" role="tabpanel" aria-labelledby="ourrental-tab">
-                                    <div class="wchoose-content">
-                                        <h4>Our Rental</h4>
-                                        <p>Erspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataesal vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-anchor"></i>
-                                                    </div>
-                                                    <span>Quia, odio, ipsam deleniti delectus assumenda cum.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-delicious"></i>
-                                                    </div>
-                                                    <span>Deleniti eius fuga perferendis, dolorum atquesequi soluta.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-bus"></i>
-                                                    </div>
-                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="single-choose-item">
-                                                    <div class="choose-icon">
-                                                        <i class="fa fa-briefcase"></i>
-                                                    </div>
-                                                    <span>Beataesal vitae dicta sunt explicabo. Nemo enim ipsam </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Why Choose Tab Content -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--== Why Coose Us End ==-->
 
     <!--== Mobile App Area Start ==-->
     <div id="mobileapp-video-bg"></div>
@@ -1272,7 +898,7 @@
                     <div class="section-title  text-center">
                         <h2>Tips and articles</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>TIPS AND ARTICLES ABOUT CARS THAT YOU MIGHT LIKE.</p>
                     </div>
                 </div>
                 <!-- Section Title End -->
@@ -1297,15 +923,15 @@
                                 <div class="display-table">
                                     <div class="display-table-cell">
                                         <div class="article-body">
-                                            <h3><a href="article-details.html">Wliquam sit amet urna eullam</a></h3>
+                                            <h3><a href="article-details.html">2018 BEST CAR ON AUTOMOTIVE FESTIVAL IN CHICHAGO</a></h3>
                                             <div class="article-meta">
-                                                <a href="#" class="author">By :: <span>Admin</span></a>
+                                                <a href="#" class="author">By :: <span>Abi Manyu</span></a>
                                                 <a href="#" class="commnet">Comments :: <span>10</span></a>
                                             </div>
 
                                             <div class="article-date">25 <span class="month">jan</span></div>
 
-                                            <p>Wlam aiber vestibulum fringilla oremedad ipsum dolor sit amet consectetur adipisicing elit sed doned eiusmod tempored incididunt ut labore et dolore magna aliquaa enimd ad minim veniad.</p>
+                                            <p>The yearly automotive festival has been held in Chichago on 25th January 2019, one of the largest automotive festival shown a lot of ...</p>
 
                                             <a href="article-details.html" class="readmore-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
                                         </div>
@@ -1336,15 +962,15 @@
                                 <div class="display-table">
                                     <div class="display-table-cell">
                                         <div class="article-body">
-                                            <h3><a href="article-details.html">fringilla oremedad ipsum dolor sit</a></h3>
+                                            <h3><a href="article-details.html">The things that you need to know before buying a car</a></h3>
                                             <div class="article-meta">
-                                                <a href="#" class="author">By :: <span>Admin</span></a>
+                                                <a href="#" class="author">By :: <span>Someone</span></a>
                                                 <a href="#" class="commnet">Comments :: <span>10</span></a>
                                             </div>
 
                                             <div class="article-date">14<span class="month">feb</span></div>
 
-                                            <p>Wlam aiber vestibulum fringilla oremedad ipsum dolor sit amet consectetur adipisicing elit sed doned eiusmod tempored incididunt ut labore et dolore magna aliquaa enimd ad minim veniad.</p>
+                                            <p>When you buy a car, there is a lot of things that you need to know before deciding what car you want to use, here is the tips.</p>
 
                                             <a href="article-details.html" class="readmore-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
                                         </div>
@@ -1382,7 +1008,7 @@
                                 <div class="display-table">
                                     <div class="display-table-cell">
                                         <div class="article-body">
-                                            <h3><a href="article-details.html">Tempored incididunt ut labore</a></h3>
+                                            <h3><a href="article-details.html">How to maintain your car</a></h3>
                                             <div class="article-meta">
                                                 <a href="#" class="author">By :: <span>Admin</span></a>
                                                 <a href="#" class="commnet">Comments :: <span>10</span></a>
@@ -1390,7 +1016,7 @@
 
                                             <div class="article-date">17 <span class="month">feb</span></div>
 
-                                            <p>Wlam aiber vestibulum fringilla oremedad ipsum dolor sit amet consectetur adipisicing elit sed doned eiusmod tempored incididunt ut labore et dolore magna aliquaa enimd ad minim veniad.</p>
+                                            <p>Car maintenance is important for the long-term use of a car, here is how you maintain your car for daily use.</p>
 
                                             <a href="article-details.html" class="readmore-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
                                         </div>
@@ -1420,7 +1046,7 @@
                             <h2>About Us</h2>
                             <div class="widget-body">
                                 <img src="assets/img/logo.png" alt="JSOFT">
-                                <p>Lorem ipsum dolored is a sit ameted consectetur adipisicing elit. Nobis magni assumenda distinctio debitis, eum fuga fugiat error reiciendis.</p>
+                                <p>We are a small business that run in the field of car management such as car rental, car maintenance, and driver services. We start in 2016 based on skudai,Johor Bahru. Now we have grown larger and start to open put franchise in 5 place in Johor Bahru and expanding to another city.</p>
 
                                 <div class="newsletter-area">
                                     <form action="index.html">
@@ -1442,25 +1068,25 @@
                                 <ul class="recent-post">
                                     <li>
                                         <a href="#">
-                                           Hello Bangladesh! 
+                                           Hello Malaysia! 
                                            <i class="fa fa-long-arrow-right"></i>
                                        </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                          Lorem ipsum dolor sit amet
+                                          Start your business
                                            <i class="fa fa-long-arrow-right"></i>
                                        </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                           Hello Bangladesh! 
+                                           Become a partner! 
                                            <i class="fa fa-long-arrow-right"></i>
                                        </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            consectetur adipisicing elit?
+                                            From zero to hero?
                                            <i class="fa fa-long-arrow-right"></i>
                                        </a>
                                     </li>
@@ -1474,13 +1100,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-footer-widget">
                             <h2>get touch</h2>
-                            <div class="widget-body">
-                                <p>Lorem ipsum doloer sited amet, consectetur adipisicing elit. nibh auguea, scelerisque sed</p>
 
                                 <ul class="get-touch">
-                                    <li><i class="fa fa-map-marker"></i> 800/8, Kazipara, Dhaka</li>
+                                    <li><i class="fa fa-map-marker"></i> Skudai, Johor Bahru</li>
                                     <li><i class="fa fa-mobile"></i> +880 01 86 25 72 43</li>
-                                    <li><i class="fa fa-envelope"></i> kazukamdu83@gmail.com</li>
+                                    <li><i class="fa fa-envelope"></i> cardoor@business.com</li>
                                 </ul>
                                 <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Show Location</a>
                             </div>

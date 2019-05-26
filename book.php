@@ -1,6 +1,6 @@
 <?php
 //including the database connection file
-include('..\Cardoor--master\config.php');
+include('config.php');
 
 
 if(isset($_POST["bookCar"])) {	
@@ -21,10 +21,8 @@ if(isset($_POST["bookCar"])) {
 	echo "<font color='green'>Car successfully booked.";
 	
 	
-	header('Refresh: 0;index3.php');
+	header('Refresh: 0;Account.html');
 
 }
 
 ?>
-</body>
-</html>
