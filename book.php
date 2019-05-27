@@ -21,7 +21,7 @@ if(isset($_POST["bookCar"])) {
 	echo "<font color='green'>Car successfully booked.";
 	
 	
-	header('Refresh: 0;Account.html');
+	header('Refresh: 0;Account.php');
 
 }
 
